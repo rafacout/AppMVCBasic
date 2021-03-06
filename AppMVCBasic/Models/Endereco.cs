@@ -25,15 +25,15 @@ namespace AppMVCBasic.Models
         public string Cep { get; set; }
 
         [Required(ErrorMessage = "O Campo {0} é obrigatório")]
-        [StringLength(100, ErrorMessage = "O Campo {0} precisa ter entre {2{ e {1} caracteres", MinimumLength = 2)]
+        [StringLength(100, ErrorMessage = "O Campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Bairro { get; set; }
 
         [Required(ErrorMessage = "O Campo {0} é obrigatório")]
-        [StringLength(100, ErrorMessage = "O Campo {0} precisa ter entre {2{ e {1} caracteres", MinimumLength = 2)]
+        [StringLength(100, ErrorMessage = "O Campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Cidade { get; set; }
 
         [Required(ErrorMessage = "O Campo {0} é obrigatório")]
-        [StringLength(50, ErrorMessage = "O Campo {0} precisa ter entre {2{ e {1} caracteres", MinimumLength = 2)]
+        [StringLength(50, ErrorMessage = "O Campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Estado { get; set; }
 
         /*EF Relation*/
